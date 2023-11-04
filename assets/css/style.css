@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.stick {
+  display: none;
+  color: black;
+}
+
+aside {
+  border: 1px solid black;
+  min-height: 40vh;
+  max-width: 40vw;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 100%;
+}
+
+.inside {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  aside {
+    min-width: 30%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .home {
+    padding-left: 70px;
+  }
+
+  .stick {
+    display: block;
+  }
+}
+
+input:valid + small {
+  display: none;
+}
+
+input:invalid + small + small {
+  display: none;
+}
