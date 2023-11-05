@@ -3,6 +3,10 @@ header {
   flex-direction: column;
 }
 
+.container {
+  font-family: 'Shantell Sans', cursive;
+}
+
 .stick {
   display: none;
   color: black;
